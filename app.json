@@ -1,0 +1,26 @@
+{
+  "name": "renovate-bot",
+  "description": "A heroku button for deploy renovate-bot",
+  "repository": "https://github.com/eclass/renovate-heroku",
+  "logo": "https://renovatebot.com/images/logo.svg",
+  "keywords": ["node", "renovate", "docker"],
+  "env": {
+    "RENOVATE_TOKEN": {
+      "description": "A (GitHub, GitLab, Bitbucket, Azure) Personal Access Token"
+    },
+    "RENOVATE_PLATFORM": {
+      "description": "A valid platform (github, gitlab, bitbucket, bitbucket-server. azure)."
+    },
+    "RENOVATE_REPOS": {
+      "description": "Comma-separated list of repositories, e.g. singapore/repo1,singapore/repo2"
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 0
+    }
+  },
+  "addons": [
+    "scheduler"
+  ]
+}
