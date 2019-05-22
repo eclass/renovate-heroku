@@ -1,6 +1,6 @@
-# renovate-bot
+# renovate-heroku
 
-A heroku button to deploy renovate-bot.
+A heroku button to deploy renovate-heroku.
 
 ## Deploying to Heroku
 
@@ -11,7 +11,7 @@ git push heroku master
 
 Alternatively, you can deploy your own copy of the app using the web-based flow:
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/eclass/renovate-bot)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/eclass/renovate-heroku)
 
 
 ## Add cron job
