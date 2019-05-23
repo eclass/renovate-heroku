@@ -22,4 +22,4 @@ heroku addons:open scheduler
 
 On the Scheduler Dashboard, click “Add Job…”, enter a task, select a frequency, dyno size, and next run time.
 
-Add `renovate --platform $RENOVATE_PLATFORM $RENOVATE_REPOS`, select Daily and "00:00" to run renovate every day at midnight.
+Add `renovate $RENOVATE_REPOS`, select Daily and "00:00" to run renovate every day at midnight.
