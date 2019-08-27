@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/eclass/renovate-heroku"
+    "url": "https://github.com/eclass/renovate-heroku"
   },
   "keywords": [
     "renovate",
