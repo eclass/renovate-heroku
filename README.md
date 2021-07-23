@@ -16,6 +16,7 @@ Alternatively, you can deploy your own copy of the app using the web-based flow:
 
 ## Add cron job
 
+Open Scheduler Dashboard with:
 ```bash
 heroku addons:open scheduler
 ```
