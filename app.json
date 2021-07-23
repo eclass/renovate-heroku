@@ -13,6 +13,19 @@
     },
     "RENOVATE_REPOS": {
       "description": "Space-separated list of repositories, e.g. mygroup/repo1 mygroup/repo2"
+    },
+    "NODE_OPTIONS": {
+      "description": "A custom node options",
+      "value": "--max_old_space_size=2560",
+      "required": false
+    },
+    "GITHUB_COM_TOKEN": {
+      "description": "A github personal token for retrive release notes (optional)",
+      "required": false
+    },
+    "NPMRC": {
+      "description": "A custom npmrc config. Util for access to private repositories (optional). Ex: @mygroup:registry=https://gitlab.com/api/v4/packages/npm/\n//gitlab.com/api/v4/packages/npm/:_authToken=xxx",
+      "required": false
     }
   },
   "formation": {
