@@ -12,7 +12,7 @@
       "description": "A valid platform (github, gitlab, bitbucket, bitbucket-server. azure)."
     },
     "RENOVATE_REPOS": {
-      "description": "Space-separated list of repositories, e.g. eclass/repo1 eclass/repo2"
+      "description": "Space-separated list of repositories, e.g. mygroup/repo1 mygroup/repo2"
     }
   },
   "formation": {
