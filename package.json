@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Example repository for Heroku deployment of Renovate",
   "engines": {
-    "node": "16.5.0"
+    "node": "16.14.2"
   },
   "scripts": {
     "renovate": "renovate --platform"
