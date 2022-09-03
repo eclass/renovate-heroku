@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/eclass/renovate-heroku#readme",
   "dependencies": {
-    "renovate": "32.189.0"
+    "renovate": "32.189.1"
   }
 }
